@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
         int den1f;
         int den2f;
 
+        // числитель первой дроби
         try
         {
             num1f = Integer.parseInt(String.valueOf(num1.getText())); // пробуем преобразовать введенное пользователем число
@@ -73,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        // числитель второй дроби
         try
         {
             num2f = Integer.parseInt(String.valueOf(num2.getText())); // пробуем преобразовать введенное пользователем число
@@ -82,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        // знаменатель первой дроби
         try
         {
             den1f = Integer.parseInt(String.valueOf(den1.getText())); // пробуем преобразовать введенное пользователем число
@@ -90,6 +93,8 @@ public class MainActivity extends AppCompatActivity {
             den1.setBackgroundColor(errnonum); // меняем цвет поля на красный
             return;
         }
+
+        // знаменатель второй дроби
         try
         {
             den2f = Integer.parseInt(String.valueOf(den2.getText())); // пробуем преобразовать введенное пользователем число
@@ -98,6 +103,8 @@ public class MainActivity extends AppCompatActivity {
             den2.setBackgroundColor(errnonum); // меняем цвет поля на красный
             return;
         }
+
+        // проверка знаменателей на равенство 0
         if (den1f == 0) // если знаменатель первой дроби равен 0
         {
             den1.setBackgroundColor(errzero); // меняем цвет поля на розовый
@@ -140,6 +147,7 @@ public class MainActivity extends AppCompatActivity {
         int den1f;
         int den2f;
 
+        // числитель первой дроби
         try
         {
             num1f = Integer.parseInt(String.valueOf(num1.getText())); // пробуем преобразовать введенное пользователем число
@@ -149,6 +157,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        // числитель второй дроби
         try
         {
             num2f = Integer.parseInt(String.valueOf(num2.getText())); // пробуем преобразовать введенное пользователем число
@@ -158,6 +167,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        // знаменатель первой дроби
         try
         {
             den1f = Integer.parseInt(String.valueOf(den1.getText())); // пробуем преобразовать введенное пользователем число
@@ -166,6 +176,8 @@ public class MainActivity extends AppCompatActivity {
             den1.setBackgroundColor(errnonum); // меняем цвет поля на красный
             return;
         }
+
+        // знаменатель второй дроби
         try
         {
             den2f = Integer.parseInt(String.valueOf(den2.getText())); // пробуем преобразовать введенное пользователем число
@@ -174,6 +186,8 @@ public class MainActivity extends AppCompatActivity {
             den2.setBackgroundColor(errnonum); // меняем цвет поля на красный
             return;
         }
+
+        // проверка знаменателей на равенство 0
         if (den1f == 0) // если знаменатель первой дроби равен 0
         {
             den1.setBackgroundColor(errzero); // меняем цвет поля на розовый
@@ -216,6 +230,7 @@ public class MainActivity extends AppCompatActivity {
         int den1f;
         int den2f;
 
+        // числитель первой дроби
         try
         {
             num1f = Integer.parseInt(String.valueOf(num1.getText())); // пробуем преобразовать введенное пользователем число
@@ -225,6 +240,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        // числитель второй дроби
         try
         {
             num2f = Integer.parseInt(String.valueOf(num2.getText())); // пробуем преобразовать введенное пользователем число
@@ -234,6 +250,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        // знаменатель первой дроби
         try
         {
             den1f = Integer.parseInt(String.valueOf(den1.getText())); // пробуем преобразовать введенное пользователем число
@@ -242,6 +259,8 @@ public class MainActivity extends AppCompatActivity {
             den1.setBackgroundColor(errnonum); // меняем цвет поля на красный
             return;
         }
+
+        // знаменатель второй дроби
         try
         {
             den2f = Integer.parseInt(String.valueOf(den2.getText())); // пробуем преобразовать введенное пользователем число
@@ -250,6 +269,8 @@ public class MainActivity extends AppCompatActivity {
             den2.setBackgroundColor(errnonum); // меняем цвет поля на красный
             return;
         }
+
+        // проверка знаменателей на равенство 0
         if (den1f == 0) // если знаменатель первой дроби равен 0
         {
             den1.setBackgroundColor(errzero); // меняем цвет поля на розовый
@@ -273,6 +294,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Обработчик нажатия кнопки "/" для вычисления частного двух дробей
+     * Если поле пустое, оно окрашивается красным, если числитель второй дроби равен 0, поле окрашивается в розовый
      * view View-объект кнопки, вызвавшей событие
      */
     public void onClickDiv(View view)
@@ -292,6 +314,7 @@ public class MainActivity extends AppCompatActivity {
         int den1f;
         int den2f;
 
+        // числитель первой дроби
         try
         {
             num1f = Integer.parseInt(String.valueOf(num1.getText())); // пробуем преобразовать введенное пользователем число
@@ -301,6 +324,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        // числитель второй дроби
         try
         {
             num2f = Integer.parseInt(String.valueOf(num2.getText())); // пробуем преобразовать введенное пользователем число
@@ -310,6 +334,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        // знаменатель первой дроби
         try
         {
             den1f = Integer.parseInt(String.valueOf(den1.getText())); // пробуем преобразовать введенное пользователем число
@@ -318,6 +343,8 @@ public class MainActivity extends AppCompatActivity {
             den1.setBackgroundColor(errnonum); // меняем цвет поля на красный
             return;
         }
+
+        // знаменатель второй дроби
         try
         {
             den2f = Integer.parseInt(String.valueOf(den2.getText())); // пробуем преобразовать введенное пользователем число
@@ -326,6 +353,8 @@ public class MainActivity extends AppCompatActivity {
             den2.setBackgroundColor(errnonum); // меняем цвет поля на красный
             return;
         }
+
+        // проверка знаменателей на равенство 0
         if (den1f == 0) // если знаменатель первой дроби равен 0
         {
             den1.setBackgroundColor(errzero); // меняем цвет поля на розовый
@@ -342,6 +371,7 @@ public class MainActivity extends AppCompatActivity {
         frac2.setNum(num2f);
         frac2.setDen(den2f);
 
+        // вычисляем ответ, иначе, если брошено исключение при делении, меняем цвет числителя второй дроби на розовый
         try
         {
             ans = Frac.divis(frac1, frac2); // вычисление частного

@@ -31,24 +31,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="101dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="104dp"
-        android:text="числитель"
-        android:textAlignment="textEnd"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textHintSFrac" />
-
-    <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="20dp"
-        android:text="знаменатель"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="4dp"
+        android:text="--------------------"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
@@ -57,9 +45,9 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="89dp"
-        android:text="знаменатель"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="88dp"
+        android:text="--------------------"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
@@ -82,9 +70,9 @@
         android:layout_width="98dp"
         android:layout_height="69dp"
         android:layout_marginStart="72dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="13dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textHintNum1">
+        app:layout_constraintTop_toBottomOf="@+id/textHintFFrac">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/num1"
@@ -96,12 +84,12 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
-        android:layout_width="100dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="80dp"
+        android:layout_width="98dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="88dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3">
+        app:layout_constraintTop_toBottomOf="@+id/textHintSFrac">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/num2"
@@ -115,7 +103,7 @@
         android:layout_width="98dp"
         android:layout_height="71dp"
         android:layout_marginStart="72dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4">
 
@@ -130,8 +118,8 @@
         android:id="@+id/textInputLayout4"
         android:layout_width="98dp"
         android:layout_height="68dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="84dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="88dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5">
 
@@ -205,16 +193,5 @@
         android:text="Перевод в десятичную дробь"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
-
-    <TextView
-        android:id="@+id/textHintNum1"
-        android:layout_width="92dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="17dp"
-        android:text="числитель"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textHintFFrac" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
